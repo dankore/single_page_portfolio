@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: rgb(150, 126, 96);
+}
+nav a {
+   
+    background-color: antiquewhite;
+    padding: 0 1rem;
+    text-decoration: none;
+    
+}
