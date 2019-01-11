@@ -1,26 +1,31 @@
 body{
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;*/
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     background-color: #ecf0f1;
 }
-#wrapper{
-    display: flex;
-     display: inline-block;
-    
+header{
+    background-color: #778ca3;
+    position: fixed;
+    top: 0;
     width: 100%;
-    background-color: rgb(150, 126, 96);
+    max-height: 3.1em;
 }
 nav{
-     padding-left: 40%;
-     justify-content: flex-end;
-    
-    
+    max-width: 80%;
+    margin: 0 auto;
+    height: inherit;
 }
-nav a {
- 
-    background-color: antiquewhite;
-    padding: 0 1rem;
+.logo{
+   
+}
+.nav-link{
+    font-weight: 700px;
+    font-size: large;
     text-decoration: none;
     color: white;
     float: right;
