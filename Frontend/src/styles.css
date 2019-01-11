@@ -4,15 +4,21 @@ body{
     box-sizing: border-box;
 }
 #wrapper{
-    position: relative;
     display: flex;
+     display: inline-block;
+    
     width: 100%;
     background-color: rgb(150, 126, 96);
 }
+nav{
+     padding-left: 40%;
+     justify-content: flex-end;
+    
+    
+}
 nav a {
-   
+ 
     background-color: antiquewhite;
     padding: 0 1rem;
     text-decoration: none;
-    
 }
