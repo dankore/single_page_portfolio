@@ -33,7 +33,7 @@ nav{
     padding: 1em 2em 0 1em;
 }
 #container{
-    max-width: 70%;
+    width: 70%;
     margin: 0 auto;
     margin-top: -19vh;
     padding: 17vh 0 0 3vh;
@@ -41,7 +41,7 @@ nav{
     z-index: 2;
     line-height: 0.6;
     box-shadow: 0 5px 15px -5px #00000070;
-    height: 60vh;
+    height: 20vh;
 }
 #container > h1{
     font-size: 3.5rem;
@@ -120,4 +120,47 @@ nav{
 }
 .btn{
     transform: scale(0.8)
+}
+/* Newsletter */
+.newsletter_container{
+    font-family: "montserrat", sans-serif;
+    margin-top: 40vh;
+    margin-bottom: 5vh;
+    text-align: center;
+
+}
+.newsletter_container p{
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 15px;
+}
+.email-logo-div{
+    height: 40px;
+    
+}
+.email-logo-div i{
+    background: #2f3541;
+    color: white;
+    width: 40px;
+    line-height: 40px;
+}
+.tbox-input, .btn-button{
+    border: none;
+    outline: none;
+}
+.tbox-input{
+    width: 0px;
+    height: 40px;
+    transition: 0.6s;
+}
+.email-logo-div:hover > .tbox-input, .tbox-input:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+.btn-button{
+    background: #2f3541;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
 }
