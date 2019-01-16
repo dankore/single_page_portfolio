@@ -6,8 +6,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #ecf0f1;
-  font-size: 62.5%;
+  background-color: #2b6c7c;
 }
 .logo {
   height: 50px;
@@ -27,19 +26,18 @@ nav {
   font-weight: 700px;
   font-size: large;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   float: right;
   padding: 1em 2em 0 1em;
 }
 #container {
   display: grid;
-  grid-template-columns:  20% 20% 20% 20% 20% 20%;
-  grid-template-rows: 100vh;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 100vh auto auto auto;
   grid-gap: 10px;
-  background-color: white;
+  background-color: rgb(126, 82, 82);
   box-shadow: 0 5px 15px -5px #00000070;
   margin: 0px auto;
-  width: 80vw;
 
 }
 
@@ -115,6 +113,7 @@ h1 {
   grid-column: 1/6;
   grid-row: 4/5;
   height: 200px;
+  color: white;
   box-shadow: 0 5px 15px -5px #00000070;
 }
 .btn {
@@ -210,7 +209,10 @@ h1 {
   cursor: pointer;
   height: 60px;
 }
-@media only screen and (max-width: 600px) {
+.intro, .intro-svg, .NFR, .repo, .middle{
+  background-color: white;
+}
+/*@media only screen and (max-width: 600px) {
   .newsletter_container {
     height: 180%;
   }
