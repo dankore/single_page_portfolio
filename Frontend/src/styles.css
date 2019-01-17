@@ -108,7 +108,7 @@ hr{
   grid-row: 3/4;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   box-shadow: 0 5px 15px -5px #00000070;
 }
