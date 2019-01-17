@@ -108,13 +108,12 @@ hr{
   grid-row: 3/4;
   display: flex;
   flex-wrap: wrap;
+  justify-content: left;
   align-items: center;
-  justify-content: right;
   box-shadow: 0 5px 15px -5px #00000070;
 }
 .NFR > img{
  width: 400px;
- margin: 0 100px;;
 }
 .newsletter_container {
   background-color: rgb(226, 138, 24);
@@ -232,17 +231,7 @@ hr{
   .NFR{
       flex-direction: column;
       transform-x: scale(0.7);
-      width: 400px;
-  }
-  .NFR > iframe{
-      margin-left: -100px;
-  }
-  .NFR > img{
-      margin-left: 0px;
-  }
-  .newsletter_container {
-     text-align: left;
-     width: 400px;
+     
   }
    .newsletter_container, .email-logo-div > i {
       text-align: left;
